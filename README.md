@@ -3,8 +3,12 @@
 Build tic-tac-toe game using [React Tutorial](https://react.dev/learn/tutorial-tic-tac-toe).
 
 
-### Using Docker
+### Run project using Docker
 
+
+Dockerfile is at root of this repository. 
+Static files are build with `npm run build`, into `dist` folder. 
+Npm package serve is used to serve those static files.
 
 Build image with tag "tac"
 ```
